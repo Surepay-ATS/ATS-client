@@ -209,11 +209,6 @@ public class CaseMonitorThread implements Runnable{
 		}
 	}
 	
-	public static void main(String[] args) throws Exception {
-		CaseMonitorThread c = new CaseMonitorThread();
-		c.initParams();
-		c.readAndSendMessage("D:\\test\\test.txt");
-	}
 	/**
 	 * socket reconnect
 	 * @param reqPacket req message
